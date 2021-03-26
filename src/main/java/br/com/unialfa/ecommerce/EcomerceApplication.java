@@ -47,7 +47,6 @@ public class EcomerceApplication {
 		cliente.setPrimeiroNome("Teste");
 		clienteRepository.save(cliente);
 
-
 		Pedido pedido = new Pedido();
 		pedido.setCliente(cliente);
 		pedido.setDataCriacaoPedido(LocalDate.now());
